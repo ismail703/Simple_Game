@@ -1,0 +1,38 @@
+/* ************* Global Style ************* */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ************* Game ************* */
+.container {
+    background-color: hsl(205, 100%, 96%);
+    width: 30rem;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1.75rem;
+    /* grid-template-rows: repeat(3, 1fr); */
+    margin: 3rem auto;
+}
+.container .card {
+    flex: 1;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .card.full {
+    background-color: hsl(205, 78%, 60%);
+}
+.container .card.full {
+    background-color: hsl(205, 78%, 60%);
+}
+.container .card.empty {
+    /* background-color: #fff; */
+}
